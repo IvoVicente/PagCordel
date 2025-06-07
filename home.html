@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Nexus</title>
+    <title>Cordel</title>
 
 </head>
 
 <body class="font-sans">
     <header class="bg-linear-to-r from-[#731EB7] to-[#D28100] p-[20px]">
-        <div class="flex justify-between max-w-[1200px] m-0 p-[0 30px] items-center">
+        <div class="flex flex-col md:flex-row justify-between items-center max-w-[1200px] mx-auto gap-4">
             <img class="h-[100px]" src="/imagens/comp-2-hori-sem-fundo.png" alt="Logo">
             <nav>
-                <a class="text-[13px] bg-[#303030] text-[#EC8700] px-4 py-2 rounded-[15px]
-                transition-all duration-300 ease-in-out
-                font-bold hover:bg-[#EC8700] hover:text-[#303030] hover:scale-[1.05] hover:opacity-[0.9]
+                <a class="text-[13px] bg-[#303030] text-[#EC8700] px-4 py-2 rounded-[15px] 
+                font-bold transition-all duration-300
+                 hover:bg-white hover:text-[#303030] hover:scale-105 hover:opacity-90
                 " href="#">Fale com um especialista</a>
             </nav>
 
@@ -24,136 +24,187 @@
     </header>
 
     <main>
-        <a href="https://wa.me/5521983921129" class="fixed bottom-[20px] right-[20px] bg-white
-        rounded-[50%] shadow-2xl">
-            <img class="h-[80px]" src="/imagens/logozap1.png" alt="zap">
+        <a href="https://wa.me/5521983921129" class="fixed bottom-5 right-5 bg-white rounded-full shadow-2xl">
+            <img class="h-[60px]" src="/imagens/logozap1.png" alt="zap">
         </a>
-        <div class=" flex justify-between bg-linear-to-r from-[#731EB7] to-[#D28100] px-10 py-10" >
-            <div>
-                <div class="flex flex-col justify-center p-5">
-                    <h1 class="text-[35px] text-white font-bold">A lnteligência Artificial</h1>
-                    <h1 class="text-[35px] text-white font-bold py-2"> fala com seu cliente.</h1>
-                    <h2 class="text-white text-lg">A única que entende o seu cliente.</h2>
-                    <h2 class="text-white text-lg">Transformamos atendimento em relacionamento, cobrança </h2>
-                       <h2 class="text-white text-lg"> em recuperação e cada conversa em venda.</h2>
+        <div
+            class="flex flex-col-reverse lg:flex-row justify-between bg-gradient-to-r from-[#731EB7] to-[#D28100] px-6 py-10 items-center">
+            <div class="max-w-xl space-y-4 text-center lg:text-left">
+                <h1 class="text-3xl text-white font-bold leading-tight">A Inteligência Artificial fala com seu cliente.
+                </h1>
+                <h2 class="text-white text-lg">A única que entende o seu cliente.</h2>
+                <h2 class="text-white text-lg">Transformamos atendimento em relacionamento, cobrança em recuperação e
+                    cada conversa em venda.</h2>
+                <div>
+                    <a class="text-[13px] text-white bg-transparent border border-white px-4 py-2 rounded-[15px] font-bold transition-all duration-300 hover:bg-white hover:text-[#303030] hover:scale-105 hover:opacity-90"
+                        href="#">Contrate agora</a>
                 </div>
             </div>
-            <div><img class="h-[450px]" src="/imagens/artboard3.png"></div>
-
+            <div class="mb-6 lg:mb-0">
+                <img class="h-[300px] md:h-[400px]" src="/imagens/exemplologo.png">
+            </div>
         </div>
 
         <section class=" bg-linear-to-r from-[#731EB7] to-[#D28100]  ">
-            <div class="flex flex-col justify-center rounded-t-[70px] p-[40px] bg-white 
-             shadow-2xl text-center px-2 py-4">
-                <h1 class="text-[25px] text-center mb-10px m-5 "> Seu ROI, sua IA </h1>
-                <div class="flex justify-center gap-10">
-                    <div class="bg-white rounded-[20px] p-7 w-72 shadow-2xl">
+            <div class="flex flex-col justify-center rounded-t-[70px] p-6 bg-white shadow-2xl text-center">
+                <h1 class="text-2xl mb-4 "> Seu ROI, sua IA </h1>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
+                    <div class="bg-white rounded-[20px] p-7 shadow-2xl">
                         <h2 class="text-[30px]">✨</h2>
-                        <h2 class="p-[10px]">Reduza</h2>
-                        <p class="text-[36px] m-[10px]">50%</p>
-                        <p class="text-[14px] text-[#444]">dos cursto com atendimento.</p>
+                        <h2 class="p-2">Reduza</h2>
+                        <p class="text-[36px]">50%</p>
+                        <p class="text-sm text-[#444]">dos cursto com atendimento.</p>
                     </div>
-                    <div class="bg-white rounded-[20px] p-8 w-72 shadow-2xl">
+                    <div class="bg-white rounded-[20px] p-7 shadow-2xl">
                         <div class="text-[30px]">✨</div>
-                        <h2 class="p-[10px]">Recupere</h2>
-                        <p class="text-[36px] m-[10px]">20%</p>
-                        <p class="text-[14px] text-[#444]">a mais em dividas</p>
+                        <h2 class="p-2">Recupere</h2>
+                        <p class="text-[36px]">20%</p>
+                        <p class="text-sm text-[#444]">a mais em dividas</p>
                     </div>
-                    <div class="bg-white rounded-[20px] p-8 w-72 shadow-2xl">
+                    <div class="bg-white rounded-[20px] p-7 shadow-2xl">
                         <div class="text-[30px]">✨</div>
-                        <h2 class="p-[10px]">Melhore</h2>
-                        <p class="text-[36px] m-[10px]">20%</p>
-                        <p class="text-[14px] text-[#444]">sua performance em vendas.</p>
+                        <h2 class="p-2">Melhore</h2>
+                        <p class="text-[36px]">20%</p>
+                        <p class="text-sm  text-[#444]">sua performance em vendas.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class=" bg-white">
+
+        <section class=" bg-white">
+            <div>
                 <h1 class="text-[25px] text-center mb-10px p-11">Nossos clientes</h1>
-                <div class="flex justify-center gap-10">
-                    <img class="h-[100px]" src="/imagens/fiocruz.png">
-                    <img class="h-[100px]" src="/imagens/gentegestao.png">
-                    <img class="h-[100px]" src="/imagens/GreMetroSulsemfundo.png">
-                    <img class="h-[100px]" src="/imagens/ifpe.png">
-                    <img class="h-[100px]" src="/imagens/OCC.png">
-                    <img class="h-[100px]" src="/imagens/passaporteedu.png">
+                <div class="flex flex-wrap justify-center gap-5 p-5">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/fiocruz.png">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/gentegestao.png">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/GreMetroSulsemfundo.png">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/ifpe.png">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/OCC.png">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/passaporteedu.png">
                 </div>
 
-                <div class="flex justify-center gap-10 p-10">
-                    <img class="h-[100px]" src="/imagens/riobrancosemfundo.png">
-                    <img class="h-[100px]" src="/imagens/sebrae.png">
-                    <img class="h-[100px]" src="/imagens/sesc.png">
-                    <img class="h-[100px]" src="/imagens/GoldsteinClinic.png">
-                    <img class="h-[100px]" src="/imagens/zero81_volei.png">
+                <div class="flex flex-wrap justify-center gap-5 p-5">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/riobrancosemfundo.png">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/sebrae.png">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/sesc.png">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/GoldsteinClinic.png">
+                    <img class="max-h-[100px] max-w-[120px]" src="/imagens/zero81_volei.png">
                 </div>
             </div>
         </section>
 
         <section>
             <div class="flex flex-col justify-center rounded-t-[70px] p-[40px]
-             bg-linear-to-b from-[#731EB7] to-[#D28100]
+             bg-gradient-to-b from-[#731EB7] to-[#D28100]
              shadow-2xl text-center px-2 py-4">
-                <h1 class="text-[25px] text-white text-center mb-10px m-3">Exemplos de Uso </h1>
+                <h1 class="text-[25px] text-white text-center mb-4 m-3">Exemplos de Uso </h1>
                 <p class="text-white ">Transformamos cada conversa em uma oportunidade por meio de conexões</p>
-                <p class="text-white"> automatizadas e resultados verdadeiramente humanos.</p>
-                <div class="flex justify-center gap-10 py-5">
-                    <div class="bg-white rounded-[20px] p-8 w-72 shadow-2xl">
-                        <h2 class="p-[10px]">Lorem ipsum</h2>
-                        <img src="/imagens/artboard3.png">
-                        <p class="text-[36px] m-[10px]">50%</p>
-                        <p class="text-[14px] text-[#444]">Lorem ipsum dolor sit</p>
+                <p class="text-white mb-6"> automatizadas e resultados verdadeiramente humanos.</p>
+                <div class="flex gap-6 overflow-x-auto scrollbar-hide px-4 sm:justify-center sm:overflow-visible">
+                    <div class="bg-white rounded-[20px] p-8 w-72 shrink-0 shadow-2xl">
+                        <h2
+                            class="text-[20px] font-bold bg-gradient-to-r from-[#731EB7] to-[#D28100] bg-clip-text text-transparent text-center">
+                            IA para</h2>
+                        <h2
+                            class="text-[20px] font-bold bg-gradient-to-r from-[#731EB7] to-[#D28100] bg-clip-text text-transparent text-center">
+                            Atendimento</h2>
+                        <img class="w-full h-auto rounded-[20px] object-cover" src="/imagens/aiTablet.png">
                     </div>
-                    <div class="bg-white rounded-[20px] p-8 w-72 shadow-2xl">
-                        <h2 class="p-[10px]">Lorem ipsum</h2>
-                        <img src="/imagens/artboard3.png">
-                        <p class="text-[36px] m-[10px]">20%</p>
-                        <p class="text-[14px] text-[#444]">Lorem ipsum dolor sit</p>
+                    <div class=" bg-white rounded-[20px] p-8 w-72 shrink-0 shadow-2xl">
+                        <h2
+                            class="text-[20px] font-bold bg-gradient-to-r from-[#731EB7] to-[#D28100] bg-clip-text text-transparent text-center">
+                            IA para</h2>
+                        <h2
+                            class="text-[20px] font-bold bg-gradient-to-r from-[#731EB7] to-[#D28100] bg-clip-text text-transparent text-center">
+                            Automação</h2>
+                        <img class="w-full h-auto rounded-[20px] object-cover" src="/imagens/aiRelog.png">
                     </div>
-                    <div class="bg-white rounded-[20px] p-8 w-72 shadow-2xl">
-                        <h2 class="p-[10px]">Lorem ipsum</h2>
-                        <img src="/imagens/artboard3.png">
-                        <p class="text-[36px] m-[10px]">20%</p>
-                        <p class="text-[14px] text-[#444]">Lorem ipsum dolor sit</p>
+                    <div class="bg-white rounded-[20px] p-8 w-72 shrink-0 shadow-2xl">
+                        <h2
+                            class="text-[20px] font-bold bg-gradient-to-r from-[#731EB7] to-[#D28100] bg-clip-text text-transparent text-center">
+                            AI para</h2>
+                        <h2
+                            class="text-[20px] font-bold bg-gradient-to-r from-[#731EB7] to-[#D28100] bg-clip-text text-transparent text-center">
+                            Vendas</h2>
+                        <img class="w-full h-auto rounded-[20px] object-cover" src="/imagens/aiCelular.png">
                     </div>
                 </div>
             </div>
         </section>
 
-         <section class=" bg-[#D28100]  ">
-            <div class="flex flex-col justify-center rounded-t-[70px] p-[40px] bg-white 
-             shadow-2xl text-center px-2 py-4">
+        <section class=" bg-[#D28100]  ">
+            <div class="rounded-t-[70px] p-[40px] bg-white shadow-2xl text-center px-2 py-4">
+                <div class=" flex flex-col-reverse lg:flex-row justify-between ">
+                    <div class="flex flex-col md:flex-row justify-center items-center p-10 gap-8 ">
+                        <div class="flex-1 text-left space-y-10 justify-center ">
+                            <div class=" max-w-xl space-y-4 text-center lg:text-left w-[500px] h-[100px] py-20">
+                                <h2 class="text-3xl font-bold text-gray-800 leading-tight">Pode falar aí,</h2>
+                                <h2 class="text-base text-gray-700 leading-tight">nossa IA tá ouvindo Deixe seus
+                                    clientes falarem.</h2>
+                                <h2 class="text-base text-gray-700 leading-tight">Nossa IA escuta, entende e responde
+                                    com agilidade.</h2>
+                            </div>
+                            <div class="max-w-xl space-y-4 text-center lg:text-left w-[500px] h-[100px]">
+                                <h2 class="text-base text-gray-700 leading-tight">Pode mandar imagem, que também
+                                    entendemos</h2>
+                                <h2 class="text-base text-gray-700 leading-tight">IA além de escutar também reconhece
+                                    imagem</h2>
+                            </div>
+                            <div class="max-w-xl space-y-4 text-center lg:text-left p-20">
+                                <a class="text-[13px] text-white bg-black  px-4 py-2 rounded-[15px]
+                transition-all duration-300 ease-in-out
+                font-bold hover:bg-[#FFFFFF] hover:text-[#303030] hover:scale-[1.05] hover:opacity-[0.9] hover:border hover:border-black
+                " href="#">Contrate agora</a>
+                            </div>
+                        </div>
 
-             </div>
-         </section>
+                    </div>
+                    <div class="px-10"><img class="h-[500px] rounded-[20px] object-cover "
+                            src="/imagens/mulherbraco.png"></div>
+                </div>
+
+            </div>
+        </section>
 
 
         <section>
-            <div class="bg-white flex justify-between m-2 p-20">
-                <div>
-                    <h1 class="text-[25px]">Mande sua ideia para a gente!</h1>
-                </div>
-                <div class="text-[25px]">
-                    <h1>Ou entre em contato via:</h1>
-                    <h2 class="m-5">contato@somoscordel.com.br</h2>
-                    <div class="flex gap-5 justify-center m-5">
-                        <a href="https://wa.me/5521983921129"><img class="h-[40px]" src="/imagens/contatozap.png"></a>
-                        <a
-                            href="https://www.instagram.com/somoscordel?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-                            <img class="h-[40px]" src="/imagens/contatoins.png"></a>
-                        <a href="https://www.linkedin.com/company/somoscordel/posts/?feedView=all">
-                            <img class="h-[40px]" src="/imagens/contatolinkedin.png"></a>
+            <div class="bg-gradient-to-b from-[#731EB7] to-[#D28100] px-6 py-10">
+                <div
+                    class="flex flex-col-reverse lg:flex-row justify-center items-center gap-6 text-white max-w-6xl mx-auto">
+
+
+                    <div class="max-w-xl space-y-4 text-center lg:text-left">
+                        <h1 class="text-[25px] sm:text-2xl lg:text-[25px] font-semibold mb-4">
+                            Uma inteligência humanizada e que aumenta a eficiência da sua empresa
+                        </h1>
+                    </div>
+
+
+                    <div class="text-center lg:text-right text-base sm:text-lg">
+                        <h2 class="font-semibold mb-1">Ou entre em contato via:</h2>
+                        <h3 class="mb-3">contato@somoscordel.com.br</h3>
+                        <div class="flex justify-center lg:justify-end gap-4">
+                            <a href="https://wa.me/5521983921129"><img class="h-8 filter invert"
+                                    src="/imagens/contatozap.png" alt="WhatsApp"></a>
+                            <a href="https://www.instagram.com/somoscordel">
+                                <img class="h-8 filter invert" src="/imagens/contatoins.png" alt="Instagram">
+                            </a>
+                            <a href="https://www.linkedin.com/company/somoscordel/posts">
+                                <img class="h-8 filter invert" src="/imagens/contatolinkedin.png" alt="LinkedIn">
+                            </a>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </section>
-
-        <div class="flex justify-center bg-linear-to-b from-[#731EB7] to-[#D28100]">
-            <img class="h-[50px]" src="/imagens/artboard2.png">
-            <p class="m-3 text-white">© 2025 por Somos Cordel. Todos os direitos reservados.</p>
-        </div>
-
+        <footer class="bg-[#D28100] px-4 py-6">
+            <div class="flex flex-col items-center gap-4 sm:flex-row sm:justify-center sm:gap-6">
+                <img class="h-[60px]" src="/imagens/comp-2-hori-sem-fundo.png" alt="Logo Somos Cordel">
+                <p class="text-white text-center text-sm sm:text-base">© 2025 por Somos Cordel. Todos os direitos
+                    reservados.</p>
+            </div>
+        </footer>
     </main>
 
 </body>
